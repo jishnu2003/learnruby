@@ -1,0 +1,11 @@
+<br>
+<br>
+<br>
+<br>
+<h1>Events</h1>
+<ul>
+  <% @events.each do |event| %>
+    <% my_event = event.upcase %>
+    <li><%= my_event %></li>
+  <% end %>
+</ul>
